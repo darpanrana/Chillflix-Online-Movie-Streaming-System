@@ -1,0 +1,67 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-image: url("Files\\Logo\\background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.h-container
+{
+    width: 50%;
+    background: rgba(29, 28, 28, 0.897);
+}
+
+.history-main
+{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.history-container
+{
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.box
+{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+
+.img
+{
+    width: 50%;
+}
+
+.desc
+{
+    padding: 5px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-child
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+}
+
+h2,h1
+{
+    color: white;
+}

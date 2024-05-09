@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-image: url("Files\\Logo\\background.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.player-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 83.8vh;
+}
+
+.player-form
+{
+    background: rgba(2, 2, 2, 0.806);
+    width: 1000px;
+    height: 520px;
+}
+
+.player-head
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-head-label
+{
+    padding-bottom: 6px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    font-size: 2.5rem;
+    border-bottom: 2px solid white;
+    height: 50px;
+    color: white;
+}
+
+.player-box
+{
+    height: 380px;
+    margin-top: 9px;
+}
+
+.player-buttons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height: 40px;
+}
+
+.player-button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-submit
+{
+    border: none;
+    cursor: pointer;
+    color: white;
+    background: #ee3e38;
+    font-size: 2rem;
+    height: 45px;
+    width: 900px;
+    transition: 0.5s ease;
+}
+
+.player-submit:hover
+{
+    font-size: 1.6rem;
+    background: #ee3e20;
+}
+
+.box-form1
+{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box-first
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+}
+
+.box-second
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.box-reg
+{
+    width: 97%;
+    height: 98%;
+    display: grid; 
+    padding-top: 32px; 
+    padding-left: 15px;
+    line-height: 1px;
+}
+
+.box-packeage
+{
+    width: 97%;
+    height: 95%;
+}
+
+.reg-label
+{
+    font-size: x-large;
+    color: white;
+}
+
+.reg-label::selection
+{
+    background-color: #ee3e38;
+}
+
+.reg-input
+{
+    background: transparent;
+    border: 2px solid white;
+    height: 30px;
+    color: #ee3e20;
+    font-size: x-large;
+}
+
+.reg-packs
+{
+    height: 180px;
+    width: 30%;
+    background-color: #303030;
+}
+
+.reg-packages
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pack-head
+{
+    height: 50px;
+    background-color: #ee3e38;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pack-desc
+{
+    display: flex;
+    justify-content: center;
+}
+
+.pack-desc ul
+{
+    color: white;
+    list-style-type: none;
+    line-height: 29px;
+}
+
+.pack-btn
+{
+    display: flex;
+    justify-content: center;
+}
+
+.pack-btn-radio
+{
+    top:50%;
+    left: 50%;
+    transform: translate(0%, -97%);
+    -webkit-appearance: none;
+    padding: 5.5rem;
+    transition: 0.3s ease;
+}
+
+.pack-btn-radio:hover
+{
+    cursor: pointer;
+}
+
+.pack-btn-radio:checked
+{
+    border: 3px Solid white;
+}
+
+.reg-privacy
+{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.reg-privacy p::selection
+{
+    background-color: #ee3e38;
+}
+
+.reg-input2
+{
+    background: transparent;
+    border: 2px solid white;
+    height: 30px;
+    width: 250px;
+    color: #ee3e20;
+    font-size: x-large;
+}
+
+.pri-temp
+{
+    width: 70px;
+}

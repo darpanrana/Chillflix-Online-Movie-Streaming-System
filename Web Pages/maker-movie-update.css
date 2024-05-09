@@ -1,0 +1,107 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body
+{
+    background-image: url("Files\\Logo\\background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.upload-container
+{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    height: 590px;
+}
+
+.upload-form
+{
+    padding-left: 60px; 
+    background: rgba(2, 2, 2, 0.806);
+    width: 90%;
+    height: 524px;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.upload-form label
+{
+    color: white;
+    font-size: x-large;
+}
+
+.upload-form input[type="text"]
+{
+    color: white;
+    font-size: x-large;
+    background: transparent;
+    border: 2px solid white;
+}
+
+.upload-form input[type="file"]
+{
+    width: 300px;
+    color: white;
+    font-size: x-large;
+    background: transparent;
+}
+
+.upload-form select
+{
+    width: 300px;
+    color: white;
+    font-size: x-large;
+    background: transparent;
+    border: 2px solid white;
+}
+
+.upload-form input[type="number"]
+{
+    color: white;
+    font-size: x-large;
+    background: transparent;
+    border: 2px solid white;
+}
+
+.upload-form textarea
+{
+    resize: none;
+    width: 302px; 
+    height: 113px;
+    color: white;
+    font-size: x-large;
+    background: transparent;
+    border: 2px solid white;
+}
+
+.upload-form button
+{
+    margin-top: 0px;
+    width: 800px;
+    margin-left: -730px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid white;
+    font-size: xx-large;
+    color: white;
+    transition: 0.5s ease;
+}
+
+.upload-form button:hover
+{
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid #ee3e38;
+    font-size: xx-large;
+    color: #ee3e38;
+}

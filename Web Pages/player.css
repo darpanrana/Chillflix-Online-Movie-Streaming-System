@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-color: #303030;
+}
+
+.screen
+{
+    width: 720px;
+}
+
+.player-main
+{
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+}
+
+.player-child
+{
+    padding: 15px 0px 0px 15px;
+    justify-content: space-between;
+    display: flex;
+    height: 480px;
+}
+
+.player-child-first
+{
+    padding: 15px 0px 0px 5px;
+    display: flex;
+    align-items: center;
+}
+
+.player-child-second
+{
+    padding: 15px 0px 0px 15px;
+    width: 50%;
+}
+
+.player-head
+{
+    border-left: 5px solid #ee3e38;
+    color: white;
+    font-size: xx-large;
+}
+
+.player-head::selection
+{
+    background-color: #ee3e38;
+}
+
+.player-mvkge
+{
+    color: white;
+    font-size: x-large;
+}
+
+.player-mvkdtl
+{
+    color: white;
+    font-size: large;
+    line-height: 29px;
+    width: 90%;
+}
+
+.player-main2
+{
+    display: flex;
+    justify-content: center;
+}
+
+.player-castncrew
+{
+    width: 98%;
+}
+
+.player-table
+{
+    display: flex;
+}
+
+.data::selection
+{
+    background-color: #303030;
+}
+
+.data
+{
+    width: 20%;
+    border-right: 3px solid #303030;
+    background-color: #ee3e38;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    height: 40px;
+}
+
+.data2::selection
+{
+    background-color: #303030;
+}
+
+.data2
+{
+    width: 20%;
+    border-right: 3px solid #303030;
+    background-color: #ee3e38;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    height: 60px;
+}
+
+.background-poster
+{
+    width: 100%;
+    top: 50%;
+    left: 50%;
+}
+
+.poster-img
+{
+    border-radius: 10px;
+    width: 400px;
+}
+
+.poster
+{
+    padding: 0px 0px 0px 15px;
+    overflow: hidden;
+    height: 250px;
+    gap: 10px;
+    display: flex;
+    transition: 0.5s eases;
+}
+
+.btn-watch
+{
+    width: 400px;
+    height: 224px;
+    border-radius: 10px;
+    border: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%,-101.5%);
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: x-large;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+.btn-watch:hover
+{
+    opacity: 1;
+}

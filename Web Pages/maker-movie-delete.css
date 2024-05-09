@@ -1,0 +1,130 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-color: #303030;
+}
+
+.admin-pending
+{
+    position: fixed;
+    width: 99.9%;
+    height: 87.5%;
+}
+
+.pending-main
+{
+    border: 2px solid white;
+    height: 95%;
+    width: 99.9%;
+}
+
+.pending-container
+{
+    margin: 10px;
+    height: 90%;
+    width: 95.1%;
+    background-color: brown;
+    padding: 20px;
+}
+
+.name-desc
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-desc p
+{
+    width: 78%;
+}
+
+.name-desc label
+{
+    width: 20%;
+}
+
+.pending-movie
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pending-movie img
+{
+    height: 200px;
+}
+
+.pending-movie video
+{
+    height: 200px;
+}
+
+.pending-member ul
+{
+    list-style-type: none;
+}
+
+.pending-member li
+{
+    color: white;
+    font-size: larger;
+}
+
+p
+{
+    color: white;
+    font-size: larger;
+}
+
+label
+{
+    color: white;
+    font-size: x-large;
+}
+
+select
+{
+    width: 180px;
+    height: 25px;
+    outline: none;
+    font-size: larger;
+}
+
+option
+{
+    border-radius: 0;
+}
+
+.first
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec
+{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dec-sec
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec button
+{
+    cursor: pointer;
+    font-size: x-large;
+    width: 100px;
+    height: 50px;
+}

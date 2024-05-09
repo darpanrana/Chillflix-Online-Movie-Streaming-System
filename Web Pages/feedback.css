@@ -1,0 +1,93 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-color: #303030;
+}
+
+.privacy-main
+{
+    padding: 20px;
+    color: white;
+    font-family: "Netflix Sans",Helvetica,Arial,sans-serif;
+}
+
+.privacy-container
+{
+    color: white;
+    font-family: "Netflix Sans",Helvetica,Arial,sans-serif;
+    padding: 10px;
+}
+
+.privacy-container h1
+{
+    color: #ee3e38;
+    font-family: "Netflix Sans",Helvetica,Arial,sans-serif;
+    font-size: 40px;
+}
+
+.privacy-container p
+{
+    color: white;
+    font-family: "Netflix Sans",Helvetica,Arial,sans-serif;
+    color: white;
+    font-size: larger;
+}
+
+.privacy-container ul
+{
+    color: white;
+    font-family: "Netflix Sans",Helvetica,Arial,sans-serif;
+    margin-left: 50px;
+}
+
+.privacy-container li
+{
+    color: white;
+    font-family: "Netflix Sans",Helvetica,Arial,sans-serif;
+    font-size: large;
+    line-height: 30px;
+}
+
+.privacy-container textarea
+{
+    color: white;
+    font-family: "Netflix Sans",Helvetica,Arial,sans-serif;
+    font-size: x-large;
+    width: 99%;
+    border: 2px solid white;
+    height: 450px;
+    resize: none;
+    background: rgba(57, 52, 52, 0.521);
+    padding: 10px;
+}
+
+.privacy-container textarea:focus
+{
+    outline: none;
+}
+
+.privacy-container button
+{
+    font-family: "Netflix Sans",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    width: 200px;
+    height: 70px;
+    border: 2px solid #303030;
+    cursor: pointer;
+    transition: 0.4s ease;
+    background-color: #ee3e38;
+    color: white;
+}
+
+.privacy-container button:hover
+{
+    border: 2px solid #303030;
+    background-color: white;
+    color: black;
+}

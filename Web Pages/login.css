@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-image: url("Files\\Logo\\background.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.player-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 83.8vh;
+}
+
+.player-form
+{
+    background: rgba(2, 2, 2, 0.806);
+    width: 400px;
+    height: 420px;
+}
+
+.player-head
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-head-label
+{
+    padding-bottom: 6px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    font-size: 2.5rem;
+    border-bottom: 2px solid white;
+    height: 50px;
+    color: white;
+}
+
+.player-box
+{
+    height: 260px;  
+}
+
+.player-buttons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.player-button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-submit
+{
+    border: none;
+    cursor: pointer;
+    color: white;
+    background: #ee3e38;
+    font-size: 2rem;
+    height: 45px;
+    width: 300px;
+    transition: 0.5s ease;
+}
+
+.player-submit:hover
+{
+    font-size: 1.6rem;
+    background: #ee3e20;
+}
+
+.box-form1
+{
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box-first
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.box-reg
+{
+    width: 90%;
+    height: 50%;
+    display: grid;
+    margin-top: 40px;
+}
+
+.box-packeage
+{
+    width: 97%;
+    height: 95%;
+}
+
+.reg-label
+{
+    font-size: x-large;
+    color: white;
+}
+
+.reg-label::selection
+{
+    background-color: #ee3e38;
+}
+
+.reg-input
+{
+    background: transparent;
+    border: 2px solid white;
+    height: 30px;
+    color: #ee3e20;
+    font-size: x-large;
+}
+
+a:visited
+{
+    color: #ee3e38;
+    text-decoration: none;
+}
+
+a:link
+{
+    color: #ee3e38;
+    text-decoration: none;
+}
+
+.log-reg
+{
+    justify-content: space-around;
+    display: flex;
+    width: 87%;
+    text-align: right;
+    color: white;
+}
+
+.log-parent
+{
+    display: flex;
+    justify-content: center;
+}

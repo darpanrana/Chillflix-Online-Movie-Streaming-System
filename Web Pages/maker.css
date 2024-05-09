@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-image: url("Files\\Logo\\background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.maker-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 40px 0px 40px 0px;
+    height: 83.8vh;
+}
+
+.maker-form
+{
+    background: rgba(2, 2, 2, 0.806);
+    width: 400px;
+    height: 650px;
+}
+
+.maker-head
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maker-head-label
+{
+    padding-bottom: 6px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    font-size: 1.5rem;
+    border-bottom: 2px solid white;
+    height: 50px;
+    color: white;
+}
+
+.maker-box
+{
+    height: 441px;  
+}
+
+.maker-buttons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    margin-top: 90px;
+}
+
+.maker-button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maker-submit
+{
+    border: none;
+    cursor: pointer;
+    color: white;
+    background: #ee3e38;
+    font-size: 2rem;
+    height: 45px;
+    width: 300px;
+    transition: 0.5s ease;
+}
+
+.maker-submit:hover
+{
+    font-size: 1.6rem;
+    background: #ee3e20;
+}
+
+.box-form1
+{
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box-first
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.box-reg
+{
+    width: 90%;
+    height: 50%;
+    display: grid;
+    margin-top: 40px;
+}
+
+.box-packeage
+{
+    width: 97%;
+    height: 95%;
+}
+
+.reg-label
+{
+    font-size: x-large;
+    color: white;
+}
+
+.reg-label::selection
+{
+    background-color: #ee3e38;
+}
+
+.reg-input
+{
+    background: transparent;
+    border: 2px solid white;
+    height: 30px;
+    color: #ee3e20;
+    font-size: x-large;
+}
+
+.makerid
+{
+    font-size: x-large;
+    top: 50%;
+    left: 50%;
+    color: #ee3e38;
+    transform: translate(0%,-105%);
+    height: 32px;
+    width: 40%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.makerid-top
+{
+    height: 20px;
+    display: flex;
+    justify-content: right;
+}

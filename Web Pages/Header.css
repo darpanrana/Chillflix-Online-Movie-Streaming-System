@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding : 0;
+}
+
+.dr
+{
+    z-index: 6;
+    overflow-y: scroll;
+    height: 60px;
+}
+
+.rd
+{
+    z-index: 6;
+    position: fixed;
+    width: 100%;
+    line-height: 0;
+    padding: 0;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menubar
+{
+    z-index: 6;
+    width: 80%;
+    cursor: default;
+    font-size: xx-large;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    position: absolute;
+}
+
+.menunav
+{
+    z-index: 6;
+    justify-content: space-evenly;
+    margin-right: 20px;
+}
+
+.menunav:hover
+{
+    font-size: 2.2rem;
+    color: #ee3e38;
+}
+
+.temp
+{
+    width: 90px;
+}
+
+.logo
+{
+    margin-left: 20px;
+}
+
+.menu
+{
+    width: 100%;
+    float: right;
+    height: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menunav
+{
+    justify-content: space-evenly;
+    transition: 0.5s ease;
+    cursor: pointer;
+    font-size: 2rem;
+    display: inline-block;
+    list-style: none;
+    color: white;
+}
+
+.temp2
+{
+    width: 10px;
+}
+
+::-webkit-scrollbar
+{
+    display: none;
+}
+
+.login
+{
+    transition: 0.5s ease;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    height: 40px;
+    width: 120px;
+    font-size: large;
+    background-color: black;
+    border: solid;
+    border-color: #ee3e38;
+}
+
+.login:hover
+{
+    font-size: x-large;
+    background-color: #ee3e38;
+    color: white;
+    outline-offset: 3px;
+}
