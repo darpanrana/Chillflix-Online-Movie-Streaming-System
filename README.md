@@ -13,3 +13,4 @@
 - PHP And MYSQL For Backend
 
 # Screenshots
+![Screenshot (228)](https://github.com/darpanrana/Online-Movie-Streaming/assets/123465900/547ba8c5-5079-4865-b7ab-b9707d14472b)
