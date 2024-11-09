@@ -53,7 +53,7 @@
             $ins = "INSERT INTO feedback VALUES(NULL,'" . $_SESSION["user"] . "','" . $_POST['feedback'] . "')";
             mysqli_query($con, $ins);
             echo "<script>alert ('Feedback Sent Succesfully...'); 
-            window.location = 'homepage.php';</script>";
+            window.location = 'index.php';</script>";
         }
     }
 ?>

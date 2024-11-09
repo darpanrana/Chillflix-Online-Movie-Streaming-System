@@ -122,7 +122,7 @@ if(isset($_POST['submit']))
             $_SESSION["user"] = $_POST['email'];
             $insert = "INSERT INTO user VALUES('" . $_POST['nm'] . "','" . $_POST['email'] . "','" . $_POST['pwd'] . "','" . $_POST['fav'] . "'," . $_POST['pack'] . ",'NULL')";
             mysqli_query($con, $insert);
-            echo "<script>window.location = 'Homepage.php';</script>";
+            echo "<script>window.location = 'index.php';</script>";
         }
     }
     else

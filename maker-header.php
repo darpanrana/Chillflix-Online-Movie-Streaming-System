@@ -23,7 +23,7 @@
 
                 <div class="admin-head2">
                     <label>Hello, <?php echo $row[0]; ?></label>
-                    <a href="Homepage.php">
+                    <a href="index.php">
                     <i class="fa fa-power-off" style="font-size:30px; color:white;"></i></a>
                 </div>
             </div>

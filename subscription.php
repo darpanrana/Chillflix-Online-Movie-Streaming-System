@@ -81,7 +81,7 @@
     {
         if(isset($_POST['submit']))
         {
-            echo "<script>window.location = 'Homepage.php';</script>";
+            echo "<script>window.location = 'index.php';</script>";
         }
     }
     else

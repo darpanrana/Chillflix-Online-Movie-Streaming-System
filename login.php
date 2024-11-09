@@ -120,7 +120,7 @@
                 if(isset($_POST['submit']))
                 {
                     $_SESSION["user"] = $_POST['email'];
-                    echo "<script>window.location = 'Homepage.php';</script>";
+                    echo "<script>window.location = 'index.php';</script>";
                 }
             }
         }

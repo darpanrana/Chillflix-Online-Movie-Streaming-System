@@ -17,7 +17,7 @@
                     <div class="menubar">
                         <div class="temp"></div>
                         <div class="log">
-                            <a href="Homepage.php">
+                            <a href="index.php">
                                 <label class="menunav">Home</label>
                             </a>
                         </div>

@@ -47,7 +47,7 @@
                 <label>Hello, Admin</label>
             </div>
             <div class="sidebar-child2">
-                <a href="Homepage.php">
+                <a href="index.php">
                 <i class="fa fa-sign-out" style="font-size:36px; color:white;"></i></a>
             </div>
         </div>

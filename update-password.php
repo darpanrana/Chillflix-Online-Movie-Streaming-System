@@ -66,7 +66,7 @@
         mysqli_query($con, $sql3);
 
         echo"<script>alert('Password Changed')
-            window.location = 'Homepage.php';</script>";
+            window.location = 'index.php';</script>";
 
         session_destroy();
     }
